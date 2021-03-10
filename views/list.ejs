@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>タイムライン</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><p>歌詞投稿</p></header>
+    <div class="main" id="js-main">
+      
+      <div class="tab-nav">
+
+        <a href="/form" class="tab-nav-item" >投稿</a>
+    
+    </div>
+
+      <div class="timeline">
+        <div class="tab-timeline" data-content="0">
+          <ul>
+            <% users.forEach((user) => { %>
+              <li><%= user.poem %>
+                <a><%=user.songname%>/<%= user.name%></a>
+                <form action="/delete/<%=user.id %>" method="post">
+                  <input type="submit" value="削除" class="deleteBtn">
+                </form>
+              </li>
+              
+            
+          <% }) %> 
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
