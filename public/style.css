@@ -1,0 +1,78 @@
+body{
+    margin:0;
+  }
+header{
+    margin-bottom: 20px;
+    background-color: papayawhip;
+    height: 50px;
+  }
+header p {
+    color: orange;
+    text-align: center;
+    font-family: "Hannotate SC", sans-serif;
+    line-height: 50px;
+  }
+.tab-nav {
+    padding: 0 100px;
+  }
+.tab-nav-item {
+    margin-right: 5px;
+    background: #ff8b5f;
+    color: papayawhip;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  
+  .timeline {
+    margin: 0 auto;
+    padding: 20px 100px 0 100px;
+  }
+  .poem-form{
+    margin: 0 auto;
+    padding: 20px 100px 0 100px;
+  }
+  .tab-timeline {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  .tab-timeline li {
+    margin-right: 40px;
+    margin-bottom: 30px;
+    list-style: none;
+    border-bottom: 2px solid #ccc;
+  }
+  .tab-timeline a {
+    margin-bottom: 30px;
+    border-bottom: 2px none;
+    float: right;
+    color: rgba(204, 204, 204, 0.363) 97, 89, 89;
+    font-size: smaller;
+  }
+  
+  .poem-form {
+    width: 400px;
+  }
+  
+  .poem-form textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+  }
+  
+  .btn {
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, #ffc107 0%, #ff8b5f 100%);
+    transition: 0.4s;
+  }
+  .btn:hover {
+    background-image: linear-gradient(45deg, #ffc107 0%, #f76a35 100%);
+  }
+  .btn:focus {
+    outline: 0;
+  }
+  
